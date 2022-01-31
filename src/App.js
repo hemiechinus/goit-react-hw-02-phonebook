@@ -2,6 +2,7 @@ import { Component } from "react";
 import ContactForm from './ContactForm';
 import ContactList from './ContactList';
 import Filter from './Filter';
+import s from './style/App.module.css';
 
 class App extends Component {
   state = {
@@ -70,7 +71,7 @@ class App extends Component {
     const { filter } = this.state;
     const getContacts = this.handleContacts();
     return (
-      <div >
+      <div className={s.App}>
         <h1>Phonebook</h1>
         <ContactForm formSubmit={formSubmit} />
         <h2>Contacts</h2>
