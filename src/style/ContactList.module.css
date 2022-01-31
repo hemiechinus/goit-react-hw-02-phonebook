@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.button {
+  width: fit-content;
+  background-color: white;
+  border: 0.5px solid rgba(34, 60, 80, 0.2);
+  border-radius: 4px;
+  height: 20px;
+  box-shadow: 0 2px 4px rgba(34, 60, 80, 0.2);
+}
+
+.button:hover {
+  background-color: rgba(34, 60, 80, 0.2);
+  color: white;
+  border: transparent;
+}
